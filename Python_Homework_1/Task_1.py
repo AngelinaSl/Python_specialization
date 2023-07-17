@@ -6,7 +6,7 @@
 
 
 def check_triangle(first: int, second: int, third: int):
-    if first + second > third and second + third > first and third + first > second:
+    if first + second >= third and second + third >= first and third + first >= second:
         if first != second and second != third and third != first:
             print('Этот треугольник разносторонний.')
         elif first == second and second == third and third == first:
