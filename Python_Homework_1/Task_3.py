@@ -9,7 +9,7 @@ from random import randint
 
 def check_random(num):
     count = 9
-    x = int(input('Введите число: '))
+    x = int(input('Угадайте число из диапазона от 0 до 1000: '))
     while count > 0:
         if x > num:
             print('Загаданное число меньше')
